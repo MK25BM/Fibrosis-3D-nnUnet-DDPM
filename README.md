@@ -1,6 +1,7 @@
 # Fibrosis-3D-nnUnet-DDPM
 
 End-to-end research repository for **3D medical image segmentation** with **nnU-Net v2** and **diffusion-based synthetic data augmentation** workflows.
+The best model checkpoints from the experiments are stored here: https://drive.google.com/drive/u/1/folders/14Zm50Qv0ctpX01EdmdaBi8tKo8DpUICP
 
 It combines:
 - **Segmentation training/inference** via `nnUNet/`
