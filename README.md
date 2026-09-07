@@ -7,6 +7,8 @@ It combines:
 - **Synthetic CT generation** via `Lung-DDPM-PLUS/`
 - **Experiment orchestration scripts** for dataset creation, evaluation, and model comparison
 
+<img src="prediction_comparison_animation_00112.gif" width="500" alt="Description of GIF">
+
 ---
 
 ## Repository Overview
