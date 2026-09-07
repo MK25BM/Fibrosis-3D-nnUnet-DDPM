@@ -1,0 +1,72 @@
+{
+    "channel_names": {
+        "0": "CT_fix"
+    },
+    "labels": {
+        "background": 0,
+        "lung_fibrosis": 1
+    },
+    "ce_midpoint": 0,
+    "weight_per_cls": [1.0,3.0],
+    "oversample_foreground_percent": 0.4,
+    "deep_supervision_end": -2,
+    "numTraining": 90,
+    "file_ending": ".nii.gz",
+    "reconstruction": true,
+    "segmentation": true,
+    "ssim_alpha": 0.4,
+    "ssim_alpha_k": 0.03,
+    "ssim_alpha_method": "sigmoid",
+    "ssim_midpoint": 0,
+    "lambda_seg": 0.7,
+    "lambda_recon": 0.3,
+    "topk": 0,
+    "focal_gamma": 2.5,
+    "lambda_pow": 0.05,
+    "lambda_lpips": 0.25,
+    "local_mask_scale": 0.0,
+    "local_mask_ratio": 0.0,
+    "smooth_l1_beta": 0.12,
+    "k1k2": [0.01, 0.03],
+    "window_sizes": [11],
+    "mw_weights": [1.0],
+    "ssim_data_range": 1.0,
+    "input_val_range": [-1024, 300],
+    "recon_val_range": [-1024, 3071],
+    "recon_start_layer": 2,
+    "recon_weights": [1.0, 0.35, 0.15, 0.05],
+    "upsample_interpolate": true,
+    "fuzzy_attn": [
+        "sigmoid_mean",
+        "and_product",
+        "or",
+        "bell_mean"
+    ],
+    "fuzzy_ckpts": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "fuzzy_res": true,
+    "res_gamma": 0.0,
+    "res_centre": 0.0,
+    "seed": 42,
+    "optim": "SGD",
+    "initial_lr": 0.004,
+    "betas": [0.9, 0.999],
+    "weight_decay": 3e-05,
+    "scheduler": "cosine",
+    "end_lr": 2e-07,
+    "num_epochs": 1000,
+    "num_iterations_per_epoch": 250,
+    "label_smoothing": 0.03,
+    "dice_loss_smooth": 1e-05,
+    "weight_ce": 1.0,
+    "weight_dice": 3.0,
+    "fuse_factors": [
+        0.0, 0.5
+    ]
+}
+

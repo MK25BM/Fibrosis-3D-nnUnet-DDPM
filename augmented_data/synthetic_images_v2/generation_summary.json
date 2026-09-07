@@ -1,0 +1,20 @@
+{
+  "total_generated": 136,
+  "batch_number": 1,
+  "method": "DDPM-inpainting-with-hann-blending (sample.py approach)",
+  "patch_size": 128,
+  "patch_stride": 64,
+  "training_cases_sampled": 35,
+  "perturbations_per_case": 4,
+  "perturbation_types_used": [
+    "erosion",
+    "dilation",
+    "gaussian_smooth",
+    "noise",
+    "elastic_transform",
+    "random_scale_translate",
+    "combined"
+  ],
+  "output_ct_directory": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_images_v2",
+  "output_mask_directory": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_masks_v2"
+}

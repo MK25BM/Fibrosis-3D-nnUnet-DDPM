@@ -1,0 +1,305 @@
+{
+  "summary": {
+    "DICE": {
+      "mean": 0.8432227354041776,
+      "std": 0.0853220886321502,
+      "min": 0.6583015821343944,
+      "max": 0.9442463903417564,
+      "ci_lower": 0.8095886425924914,
+      "ci_upper": 0.873873258779856,
+      "n": 25
+    },
+    "Sensitivity": {
+      "mean": 0.8362419239165924,
+      "std": 0.10286050231950078,
+      "min": 0.5918372373863447,
+      "max": 0.9577994309516085,
+      "ci_lower": 0.7947526601279747,
+      "ci_upper": 0.8747147997098524,
+      "n": 25
+    },
+    "Specificity": {
+      "mean": 0.9986888423940137,
+      "std": 0.001170454117981606,
+      "min": 0.9958122668894509,
+      "max": 0.99990019976674,
+      "ci_lower": 0.9982125578334747,
+      "ci_upper": 0.9991243490867838,
+      "n": 25
+    },
+    "IoU": {
+      "mean": 0.7379350338357716,
+      "std": 0.12215187494366411,
+      "min": 0.4906479528996021,
+      "max": 0.8943813989396797,
+      "ci_lower": 0.6898274809042894,
+      "ci_upper": 0.7822383459810448,
+      "n": 25
+    },
+    "Hausdorff_Distance": {
+      "mean": 106.23634743979929,
+      "std": 82.67284005433858,
+      "min": 24.20743687382041,
+      "max": 407.6824744822863,
+      "ci_lower": 77.02500226171415,
+      "ci_upper": 144.37741541864185,
+      "n": 25
+    }
+  },
+  "case_results": {
+    "PuFiRS25_00004": {
+      "DICE": 0.8013207899819326,
+      "Sensitivity": 0.7464020427112349,
+      "Specificity": 0.99990019976674,
+      "IoU": 0.6685031185031185,
+      "Hausdorff_Distance": 407.6824744822863,
+      "Pred_Volume": 163570,
+      "GT_Volume": 189552,
+      "Volume_Ratio": 0.8629294336118849
+    },
+    "PuFiRS25_00005": {
+      "DICE": 0.9223763300058945,
+      "Sensitivity": 0.926636086936001,
+      "Specificity": 0.9991544905831605,
+      "IoU": 0.855935477002783,
+      "Hausdorff_Distance": 24.20743687382041,
+      "Pred_Volume": 1838952,
+      "GT_Volume": 1822122,
+      "Volume_Ratio": 1.009236483616355
+    },
+    "PuFiRS25_00012": {
+      "DICE": 0.8782970576556288,
+      "Sensitivity": 0.825120767438861,
+      "Specificity": 0.9994383099143873,
+      "IoU": 0.7830032573686385,
+      "Hausdorff_Distance": 37.48332962798263,
+      "Pred_Volume": 1233390,
+      "GT_Volume": 1403317,
+      "Volume_Ratio": 0.8789104671289524
+    },
+    "PuFiRS25_00014": {
+      "DICE": 0.8714071173103716,
+      "Sensitivity": 0.9254426044700276,
+      "Specificity": 0.9996144483880928,
+      "IoU": 0.7721182108057074,
+      "Hausdorff_Distance": 105.152270541344,
+      "Pred_Volume": 526450,
+      "GT_Volume": 468364,
+      "Volume_Ratio": 1.1240189254511448
+    },
+    "PuFiRS25_00015": {
+      "DICE": 0.9029601524443128,
+      "Sensitivity": 0.9442443181185666,
+      "Specificity": 0.998095221518838,
+      "IoU": 0.8230878344630753,
+      "Hausdorff_Distance": 109.14210919713803,
+      "Pred_Volume": 1666731,
+      "GT_Volume": 1527091,
+      "Volume_Ratio": 1.0914418328704707
+    },
+    "PuFiRS25_00018": {
+      "DICE": 0.8397289497910913,
+      "Sensitivity": 0.8555343115592392,
+      "Specificity": 0.9997787033629187,
+      "IoU": 0.7237351562291386,
+      "Hausdorff_Distance": 121.43722658229642,
+      "Pred_Volume": 230110,
+      "GT_Volume": 221762,
+      "Volume_Ratio": 1.0376439606424905
+    },
+    "PuFiRS25_00028": {
+      "DICE": 0.9335403940462875,
+      "Sensitivity": 0.9239188558622076,
+      "Specificity": 0.999455671149234,
+      "IoU": 0.8753640445776115,
+      "Hausdorff_Distance": 66.65583245298194,
+      "Pred_Volume": 1150196,
+      "GT_Volume": 1174404,
+      "Volume_Ratio": 0.9793869911887221
+    },
+    "PuFiRS25_00029": {
+      "DICE": 0.9442463903417564,
+      "Sensitivity": 0.921237617717539,
+      "Specificity": 0.9995005182631591,
+      "IoU": 0.8943813989396797,
+      "Hausdorff_Distance": 90.1443287178955,
+      "Pred_Volume": 2492962,
+      "GT_Volume": 2620680,
+      "Volume_Ratio": 0.9512653204511806
+    },
+    "PuFiRS25_00030": {
+      "DICE": 0.7104168953649832,
+      "Sensitivity": 0.8605297843304212,
+      "Specificity": 0.9973915644822285,
+      "IoU": 0.5508888049258744,
+      "Hausdorff_Distance": 65.92419889539804,
+      "Pred_Volume": 609821,
+      "GT_Volume": 428665,
+      "Volume_Ratio": 1.4226050645609043
+    },
+    "PuFiRS25_00032": {
+      "DICE": 0.9247704244095405,
+      "Sensitivity": 0.9029857798778586,
+      "Specificity": 0.9984969690984838,
+      "IoU": 0.8600678826209791,
+      "Hausdorff_Distance": 168.19334112859522,
+      "Pred_Volume": 3206415,
+      "GT_Volume": 3364950,
+      "Volume_Ratio": 0.9528863727544243
+    },
+    "PuFiRS25_00036": {
+      "DICE": 0.942543599717439,
+      "Sensitivity": 0.9577994309516085,
+      "Specificity": 0.9992182016852938,
+      "IoU": 0.8913309328550885,
+      "Hausdorff_Distance": 92.89779329994873,
+      "Pred_Volume": 1384240,
+      "GT_Volume": 1340835,
+      "Volume_Ratio": 1.032371619177602
+    },
+    "PuFiRS25_00055": {
+      "DICE": 0.9074047954327175,
+      "Sensitivity": 0.8518463898657502,
+      "Specificity": 0.9994513110793327,
+      "IoU": 0.8305040985349108,
+      "Hausdorff_Distance": 76.49182962905255,
+      "Pred_Volume": 3058566,
+      "GT_Volume": 3485369,
+      "Volume_Ratio": 0.8775443862615407
+    },
+    "PuFiRS25_00065": {
+      "DICE": 0.86986408100163,
+      "Sensitivity": 0.8766250723430685,
+      "Specificity": 0.9994154992043033,
+      "IoU": 0.7696986410029187,
+      "Hausdorff_Distance": 116.07325273291862,
+      "Pred_Volume": 575554,
+      "GT_Volume": 566744,
+      "Volume_Ratio": 1.0155449373967789
+    },
+    "PuFiRS25_00070": {
+      "DICE": 0.8900956625755111,
+      "Sensitivity": 0.8813136989613066,
+      "Specificity": 0.9988712740032066,
+      "IoU": 0.8019570989703135,
+      "Hausdorff_Distance": 38.3275357934736,
+      "Pred_Volume": 924498,
+      "GT_Volume": 943108,
+      "Volume_Ratio": 0.9802673712872757
+    },
+    "PuFiRS25_00072": {
+      "DICE": 0.899633975130365,
+      "Sensitivity": 0.8824495705864243,
+      "Specificity": 0.9994106426757288,
+      "IoU": 0.8175770196439394,
+      "Hausdorff_Distance": 73.68853370776216,
+      "Pred_Volume": 977781,
+      "GT_Volume": 1016619,
+      "Volume_Ratio": 0.9617968973627288
+    },
+    "PuFiRS25_00076": {
+      "DICE": 0.6583015821343944,
+      "Sensitivity": 0.5918372373863447,
+      "Specificity": 0.9965034773291228,
+      "IoU": 0.4906479528996021,
+      "Hausdorff_Distance": 166.0752841334315,
+      "Pred_Volume": 1231198,
+      "GT_Volume": 1542713,
+      "Volume_Ratio": 0.7980732644373905
+    },
+    "PuFiRS25_00078": {
+      "DICE": 0.8310950267279374,
+      "Sensitivity": 0.7399899249096606,
+      "Specificity": 0.9996555024225398,
+      "IoU": 0.7110030718763142,
+      "Hausdorff_Distance": 59.447455790807396,
+      "Pred_Volume": 1287950,
+      "GT_Volume": 1649613,
+      "Volume_Ratio": 0.7807588810223973
+    },
+    "PuFiRS25_00082": {
+      "DICE": 0.8779270058415298,
+      "Sensitivity": 0.9448012327105425,
+      "Specificity": 0.9993432886234311,
+      "IoU": 0.7824152353831094,
+      "Hausdorff_Distance": 189.07670401189037,
+      "Pred_Volume": 632677,
+      "GT_Volume": 549034,
+      "Volume_Ratio": 1.1523457563648154
+    },
+    "PuFiRS25_00087": {
+      "DICE": 0.9230116988013582,
+      "Sensitivity": 0.9014565734331464,
+      "Specificity": 0.9991365200952698,
+      "IoU": 0.857030385357098,
+      "Hausdorff_Distance": 26.90724809414742,
+      "Pred_Volume": 1764732,
+      "GT_Volume": 1851194,
+      "Volume_Ratio": 0.9532939281350307
+    },
+    "PuFiRS25_00095": {
+      "DICE": 0.7152116060203734,
+      "Sensitivity": 0.8230668081884313,
+      "Specificity": 0.9971706966865495,
+      "IoU": 0.5566765775374173,
+      "Hausdorff_Distance": 89.16277250063504,
+      "Pred_Volume": 770112,
+      "GT_Volume": 591664,
+      "Volume_Ratio": 1.3016036128613537
+    },
+    "PuFiRS25_00103": {
+      "DICE": 0.717819278623506,
+      "Sensitivity": 0.6460198174579266,
+      "Specificity": 0.999037511720685,
+      "IoU": 0.5598425141292767,
+      "Hausdorff_Distance": 57.0087712549569,
+      "Pred_Volume": 491254,
+      "GT_Volume": 614105,
+      "Volume_Ratio": 0.7999511484192443
+    },
+    "PuFiRS25_00107": {
+      "DICE": 0.743430242490629,
+      "Sensitivity": 0.7094713825379776,
+      "Specificity": 0.9958122668894509,
+      "IoU": 0.5916346769033909,
+      "Hausdorff_Distance": 221.60776159692603,
+      "Pred_Volume": 1800174,
+      "GT_Volume": 1981168,
+      "Volume_Ratio": 0.9086427804204389
+    },
+    "PuFiRS25_00112": {
+      "DICE": 0.8619554401324391,
+      "Sensitivity": 0.8893335297692492,
+      "Specificity": 0.9979373034274459,
+      "IoU": 0.757400430992569,
+      "Hausdorff_Distance": 31.874754901018456,
+      "Pred_Volume": 577505,
+      "GT_Volume": 543010,
+      "Volume_Ratio": 1.0635255335997496
+    },
+    "PuFiRS25_00117": {
+      "DICE": 0.8127537261024277,
+      "Sensitivity": 0.7321546160937705,
+      "Specificity": 0.999327730470596,
+      "IoU": 0.6845704585235419,
+      "Hausdorff_Distance": 27.964262908219126,
+      "Pred_Volume": 511311,
+      "GT_Volume": 637812,
+      "Volume_Ratio": 0.8016641267332694
+    },
+    "PuFiRS25_00118": {
+      "DICE": 0.700456163020381,
+      "Sensitivity": 0.6458306436976456,
+      "Specificity": 0.9961037370101425,
+      "IoU": 0.5390015658481911,
+      "Hausdorff_Distance": 193.28217714005604,
+      "Pred_Volume": 1804395,
+      "GT_Volume": 2137836,
+      "Volume_Ratio": 0.8440287281157207
+    }
+  },
+  "test_set": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/nnUNet_raw/Dataset029_PuFiRS25_50Real/imagesTs",
+  "gt_set": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/nnUNet_raw/Dataset029_PuFiRS25_50Real/labelsTs",
+  "model_folder": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/nnUNet_results/Dataset029_PuFiRS25_50Real/nnUNetTrainer__nnUNetResEncUNetLPlans__3d_fullres",
+  "dataset_id": 31
+}

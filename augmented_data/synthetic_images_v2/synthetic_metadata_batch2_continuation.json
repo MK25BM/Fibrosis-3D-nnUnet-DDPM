@@ -1,0 +1,34 @@
+[
+  {
+    "synthetic_id": "synthetic_0272",
+    "source_case": "PuFiRS25_00024",
+    "perturbation_type": "erosion",
+    "batch_number": 2,
+    "ct_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_images_v2/synthetic_0272_0000.nii.gz",
+    "mask_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_masks_v2/synthetic_0272.nii.gz"
+  },
+  {
+    "synthetic_id": "synthetic_0273",
+    "source_case": "PuFiRS25_00024",
+    "perturbation_type": "dilation",
+    "batch_number": 2,
+    "ct_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_images_v2/synthetic_0273_0000.nii.gz",
+    "mask_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_masks_v2/synthetic_0273.nii.gz"
+  },
+  {
+    "synthetic_id": "synthetic_0274",
+    "source_case": "PuFiRS25_00024",
+    "perturbation_type": "gaussian_smooth",
+    "batch_number": 2,
+    "ct_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_images_v2/synthetic_0274_0000.nii.gz",
+    "mask_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_masks_v2/synthetic_0274.nii.gz"
+  },
+  {
+    "synthetic_id": "synthetic_0275",
+    "source_case": "PuFiRS25_00024",
+    "perturbation_type": "noise",
+    "batch_number": 2,
+    "ct_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_images_v2/synthetic_0275_0000.nii.gz",
+    "mask_file": "/projects/u6dm/mk25bm.u6dm/Fibrosis-3D-nnUnet-DDPM/augmented_data/synthetic_masks_v2/synthetic_0275.nii.gz"
+  }
+]
